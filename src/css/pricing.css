@@ -57,6 +57,12 @@
   color: var(--colors-neutral-900);
 }
 
+.pricing-features {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 .pricing-privileges {
   line-height: 1.6;
   text-align: center;
@@ -141,14 +147,11 @@
   align-items: center;
   flex-direction: column;
   gap: 48px;
-  width: 343px;
-  height: 254px;
 }
 
 .countdown-timer {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
   flex-direction: column;
   gap: 20px;
   width: 343px;
@@ -217,4 +220,114 @@
   font-size: 16px;
   line-height: 1.6;
   color: var(--colors-neutral-0);
+}
+
+@media (min-width: 768px) {
+  .pricing {
+    gap: 96px;
+  }
+
+  .pricing-list {
+    gap: 20px;
+  }
+
+  .pricing-card {
+    width: 689px;
+    gap: 24px;
+    padding: 48px;
+  }
+
+  .middle-pricing-card {
+    width: 689px;
+    gap: 24px;
+    padding: 48px;
+  }
+
+  .pricing-content {
+    flex-direction: row;
+    gap: 177px;
+  }
+
+  .pricing-details {
+    align-items: flex-start;
+  }
+
+  .pricing-plan {
+    color: var(--colors-neutral-800);
+  }
+
+  .card-btn {
+    align-self: flex-start;
+  }
+
+  .middle-card-btn {
+    align-self: flex-start;
+  }
+
+  .pricing-features {
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .pricing {
+    gap: 80px;
+  }
+
+  .pricing-list {
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  .pricing-card {
+    flex-direction: column;
+    gap: 40px;
+    width: 348px;
+    padding: 40px 20px;
+    box-shadow: none;
+  }
+
+  .middle-pricing-card {
+    flex-direction: column;
+    gap: 40px;
+    width: 348px;
+    padding: 40px 20px;
+    box-shadow: none;
+  }
+
+  .pricing-content {
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .pricing-details {
+    align-items: center;
+  }
+
+  .pricing-features {
+    margin-top: 0;
+  }
+
+  .middle-pricing-privileges {
+    opacity: 0.75;
+  }
+
+  .card-btn {
+    align-self: center;
+  }
+
+  .middle-card-btn {
+    align-self: center;
+  }
+
+  .countdown {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .countdown-timer {
+    align-items: flex-start;
+    gap: 12px;
+  }
 }
