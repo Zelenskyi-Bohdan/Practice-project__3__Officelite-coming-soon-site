@@ -1,0 +1,188 @@
+<svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2036 2036" id="bg-pattern-footer">
+    <g transform="rotate(180 1018 1018)" fill="none" fill-rule="evenodd" opacity=".149">
+      <circle stroke="#FFF" cx="1018" cy="1018" r="221.5"></circle>
+      <circle stroke="#FFF" cx="1018" cy="1018" r="411.5"></circle>
+      <circle stroke="#FFF" cx="1017.5" cy="1018.5" r="650"></circle>
+      <circle stroke="#FFF" cx="1018" cy="1018" r="719.5"></circle>
+      <circle stroke="#FFF" cx="1018" cy="1018" r="1017.5"></circle>
+      <circle stroke="#FFF" cx="1017.5" cy="1018.5" r="156"></circle>
+      <circle fill="#FFF" cx="959" cy="875" r="12"></circle>
+      <circle fill="#FFF" cx="1331" cy="1284" r="12"></circle>
+      <circle fill="#FFF" cx="384" cy="1163" r="12"></circle>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1134 1134" id="bg-pattern-header">
+    <g fill="none" fill-rule="evenodd">
+      <circle stroke="#747B95" opacity=".25" cx="567" cy="567" r="355.5"></circle>
+      <circle stroke="#747B95" opacity=".25" cx="567" cy="567" r="566.5"></circle>
+      <circle stroke="#747B95" opacity=".25" cx="567" cy="567" r="282.5"></circle>
+      <g transform="translate(88 549)" fill="#D8DAE0">
+        <circle cx="196" cy="9" r="9"></circle>
+        <circle cx="596" cy="354" r="9"></circle>
+        <circle cx="9" cy="336" r="9"></circle>
+      </g>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 880" id="bg-pattern-pricing">
+    <g fill="none" fill-rule="evenodd" stroke="#FFF" opacity=".25">
+      <circle cx="440" cy="440" r="101.5"></circle>
+      <circle cx="440" cy="440" r="137.5"></circle>
+      <circle cx="440" cy="440" r="233.5"></circle>
+      <circle cx="440" cy="440" r="439.5"></circle>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2036 2036" id="bg-pattern-side">
+    <g fill="none" fill-rule="evenodd" opacity=".15">
+      <circle cx="1018" cy="1018" r="221.5" stroke="#FFF"></circle>
+      <circle cx="1018" cy="1018" r="411.5" stroke="#FFF"></circle>
+      <circle cx="1017.5" cy="1018.5" r="650" stroke="#FFF"></circle>
+      <circle cx="1018" cy="1018" r="719.5" stroke="#FFF"></circle>
+      <circle cx="1018" cy="1018" r="1017.5" stroke="#FFF"></circle>
+      <circle cx="1017.5" cy="1018.5" r="156" stroke="#FFF"></circle>
+      <circle cx="959" cy="875" r="12" fill="#FFF"></circle>
+      <circle cx="1331" cy="1284" r="12" fill="#FFF"></circle>
+      <circle cx="384" cy="1163" r="12" fill="#FFF"></circle>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 8" id="icon-arrow-down">
+    <path stroke="#5175FF" stroke-width="2" d="M1 1l5.5 5.5L12 1" fill="none" fill-rule="evenodd"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 12" id="icon-check">
+    <path d="M1 7.504L3.994 10.5 13.494 1" stroke="#5175FF" stroke-width="2" fill="none" fill-rule="evenodd"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" id="icon-cross">
+    <g fill="none" fill-rule="evenodd">
+      <circle fill="#F05B5B" cx="10" cy="10" r="10"></circle>
+      <path d="M12.475 6.61l1.414 1.415-2.475 2.475 2.475 2.475-1.414 1.414L10 11.914l-2.475 2.475-1.414-1.414L8.585 10.5 6.11 8.025l1.414-1.414L10 9.085l2.475-2.474z" fill="#FFF"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 525 606" id="illustration-charts">
+    <defs>
+      <filter x="-27.9%" y="-12.1%" width="155.8%" height="148.5%" filterUnits="objectBoundingBox" id="c">
+        <feMorphology radius="12.5" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+        <feOffset dy="50" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+        <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+        <feColorMatrix values="0 0 0 0 0.293478072 0 0 0 0 0.359720343 0 0 0 0 0.604534647 0 0 0 0.247159091 0" in="shadowBlurOuter1"></feColorMatrix>
+      </filter>
+      <filter x="-27.9%" y="-25.7%" width="155.8%" height="202.7%" filterUnits="objectBoundingBox" id="g">
+        <feMorphology radius="12.5" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+        <feOffset dy="50" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+        <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+        <feColorMatrix values="0 0 0 0 0.293478072 0 0 0 0 0.359720343 0 0 0 0 0.604534647 0 0 0 0.247159091 0" in="shadowBlurOuter1"></feColorMatrix>
+      </filter>
+      <filter x="-27.9%" y="-7.8%" width="155.8%" height="131.1%" filterUnits="objectBoundingBox" id="i">
+        <feMorphology radius="12.5" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+        <feOffset dy="50" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+        <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+        <feColorMatrix values="0 0 0 0 0.293478072 0 0 0 0 0.359720343 0 0 0 0 0.604534647 0 0 0 0.247159091 0" in="shadowBlurOuter1"></feColorMatrix>
+      </filter>
+      <rect id="b" x="0" y="0" width="224" height="309" rx="13"></rect>
+      <rect id="f" x="0" y="0" width="224" height="146" rx="13"></rect>
+      <rect id="j" x="0" y="0" width="224" height="483" rx="13"></rect>
+      <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="d">
+        <stop stop-color="#024AFF" stop-opacity=".148" offset="0%"></stop>
+        <stop stop-color="#3B77CF" stop-opacity="0" offset="100%"></stop>
+      </linearGradient>
+      <circle id="a" cx="59" cy="59" r="59"></circle>
+      <mask id="k" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="118" height="118" fill="#fff">
+        <use xlink:href="#a"></use>
+      </mask>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+      <g transform="translate(25 46)">
+        <mask id="e" fill="#fff">
+          <use xlink:href="#b"></use>
+        </mask>
+        <use fill="#000" filter="url(#c)" xlink:href="#b"></use>
+        <use fill="#FFF" xlink:href="#b"></use>
+        <path fill="url(#d)" mask="url(#e)" d="M-36.826 240.688L56.5 209.026 112 127.17l56.5 18.01 75.17-116.672V269l-280.496-1z"></path>
+        <path stroke="#5175FF" stroke-width="2" mask="url(#e)" d="M-36.826 240.688L56.5 209.026 112 127.17l56.5 18.01 75.17-116.672V269"></path>
+        <path fill="#5175FF" opacity=".152" mask="url(#e)" d="M112 0h1v250h-1zM56 0h1v250h-1zM169 0h1v250h-1z"></path>
+        <circle fill="#5175FF" mask="url(#e)" cx="112" cy="127" r="6"></circle>
+        <circle stroke="#5175FF" opacity=".25" mask="url(#e)" cx="112" cy="127" r="17.5"></circle>
+        <circle fill="#5175FF" mask="url(#e)" cx="56" cy="209" r="6"></circle>
+        <circle fill="#5175FF" mask="url(#e)" cx="169" cy="145" r="6"></circle>
+        <circle fill="#5175FF" mask="url(#e)" cx="224" cy="60" r="6"></circle>
+        <circle fill="#5175FF" mask="url(#e)" cy="228" r="6"></circle>
+        <g mask="url(#e)">
+          <text opacity=".5" font-family="KumbhSans-Bold, Kumbh Sans" font-size="11" font-weight="bold" transform="translate(-12 260)">
+            <tspan x="116.15" y="32" fill="#747B95">Jan</tspan>
+          </text>
+          <text opacity=".5" font-family="KumbhSans-Bold, Kumbh Sans" font-size="11" font-weight="bold" transform="translate(-12 260)">
+            <tspan x="57.779" y="32" fill="#747B95">Dec</tspan>
+          </text>
+          <text opacity=".5" font-family="KumbhSans-Bold, Kumbh Sans" font-size="11" font-weight="bold" transform="translate(-12 260)">
+            <tspan x="1.534" y="32" fill="#747B95">Nov</tspan>
+          </text>
+          <text opacity=".5" font-family="KumbhSans-Bold, Kumbh Sans" font-size="11" font-weight="bold" transform="translate(-12 260)">
+            <tspan x="170.308" y="32" fill="#747B95">Feb</tspan>
+          </text>
+          <text opacity=".5" font-family="KumbhSans-Bold, Kumbh Sans" font-size="11" font-weight="bold" transform="translate(-12 260)">
+            <tspan x="225.725" y="32" fill="#747B95">Mar</tspan>
+          </text>
+          <path fill="#747B95" opacity=".25" d="M0 268h224v1H0zM112 260h1v8h-1zM56 260h1v8h-1zM168 260h1v8h-1z"></path>
+        </g>
+      </g>
+      <g transform="translate(25 385)">
+        <mask id="h" fill="#fff">
+          <use xlink:href="#f"></use>
+        </mask>
+        <use fill="#000" filter="url(#g)" xlink:href="#f"></use>
+        <use fill="#333950" xlink:href="#f"></use>
+        <g mask="url(#h)">
+          <g fill="#FEFEFE" fill-rule="nonzero">
+            <path d="M80.64 95v-2.448l-6.768-.936 3.96-13.68h16.56l4.392 13.896-6.408.72V95h24.552v-2.448l-5.76-.648L93.888 41H86.4L70.128 91.688l-5.976.864V95H80.64zM93.6 75.416H78.552l7.2-24.624L93.6 75.416zm58.176 20.808c4.608 0 7.344-1.656 9.144-5.616l-1.224-1.008c-1.368 2.16-2.16 2.736-3.24 2.736-1.368 0-2.232-.936-2.232-3.672V69.296c0-10.44-4.104-14.832-14.328-14.832-11.16 0-17.424 4.32-18 11.088.576 2.376 2.376 3.672 4.968 3.672 2.736 0 5.184-1.944 5.4-6.84l.504-5.112a14.805 14.805 0 013.024-.288c5.472 0 7.2 2.232 7.2 9.72v4.392c-2.52.648-5.04 1.296-7.056 1.872-11.592 3.384-15.336 6.912-15.336 13.464 0 6.048 4.32 9.792 10.512 9.792 5.76 0 8.496-2.232 12.168-6.264 1.08 3.888 3.744 6.264 8.496 6.264zm-15.048-4.896c-3.384 0-5.4-2.016-5.4-6.336 0-5.256 2.664-8.64 7.704-10.728.864-.36 2.304-.792 3.96-1.224v14.976c-2.664 2.376-4.32 3.312-6.264 3.312zM63 100v4h95.132v-4z"></path>
+          </g>
+          <path fill="#FEFEFE" fill-rule="nonzero" d="M-67 71v4h95.132v-4zM193 71v4h95.132v-4z" opacity=".15"></path>
+        </g>
+      </g>
+      <g transform="translate(276)">
+        <use fill="#000" filter="url(#i)" xlink:href="#j"></use>
+        <use fill="#5175FF" xlink:href="#j"></use>
+      </g>
+      <path fill="#FFF" opacity=".15" d="M276 182h224v1H276z"></path>
+      <g transform="translate(329 32)">
+        <circle stroke="#FFF" opacity=".146" cx="59" cy="59" r="55.5"></circle>
+        <use stroke="#5CFCD3" mask="url(#k)" stroke-width="20" stroke-dasharray="302" xlink:href="#a"></use>
+        <text font-family="KumbhSans-Bold, Kumbh Sans" font-size="32" font-weight="bold" fill="#5CFCD3">
+          <tspan x="26" y="70">87%</tspan>
+        </text>
+      </g>
+      <text font-family="KumbhSans-Bold, Kumbh Sans" font-size="40" font-weight="bold" fill="#FFF" transform="translate(276)">
+        <tspan x="76" y="236">98k</tspan>
+      </text>
+      <g transform="translate(308 282)">
+        <rect fill="#FFF" width="14" height="14" rx="7"></rect>
+        <rect fill="#7DA7FF" x="29" width="131" height="14" rx="7"></rect>
+      </g>
+      <g transform="translate(308 316)">
+        <rect fill="#FFF" width="14" height="14" rx="7"></rect>
+        <rect fill="#7DA7FF" x="29" width="83" height="14" rx="7"></rect>
+      </g>
+      <g transform="translate(308 350)">
+        <rect fill="#FFF" width="14" height="14" rx="7"></rect>
+        <rect fill="#7DA7FF" x="29" width="131" height="14" rx="7"></rect>
+      </g>
+      <g transform="translate(308 384)">
+        <rect fill="#FFF" width="14" height="14" rx="7"></rect>
+        <rect fill="#7DA7FF" x="29" width="79" height="14" rx="7"></rect>
+      </g>
+      <g transform="translate(308 418)">
+        <rect fill="#FFF" width="14" height="14" rx="7"></rect>
+        <rect fill="#7DA7FF" x="29" width="131" height="14" rx="7"></rect>
+      </g>
+    </g>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155 30" id="logo">
+    <circle cx="30" cy="15" r="15" fill="#5175FF"></circle>
+    <circle cx="15" cy="15" r="15" fill="#5175FF"></circle>
+    <mask id="mask0_13_843" maskUnits="userSpaceOnUse" x="0" y="0" width="30" height="30">
+      <circle cx="15" cy="15" r="15" fill="white"></circle>
+    </mask>
+    <g mask="url(#mask0_13_843)">
+      <circle opacity="0.323544" cx="30" cy="15" r="15" fill="#829CFF"></circle>
+    </g>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M124.312 3.64844H121.004V21.0651H124.312V3.64844ZM72.9502 12.583V21.0651H69.6417V12.583H67.7463V9.75558H69.6417V8.22879C69.6417 7.30895 69.8447 6.52483 70.2506 5.87641C70.6565 5.228 71.1926 4.73227 71.8589 4.38921C72.5252 4.04616 73.2451 3.87463 74.0186 3.87463C74.5241 3.87463 75.0353 3.95002 75.5522 4.10082C76.0692 4.25161 76.5727 4.48534 77.0629 4.80201L75.7877 7.09784C75.5963 6.93951 75.3933 6.83395 75.1789 6.78118C74.9644 6.7284 74.7691 6.70201 74.593 6.70201C74.1028 6.70201 73.7065 6.86223 73.404 7.18266C73.1015 7.5031 72.9502 7.99883 72.9502 8.66987V9.75558H75.7418V12.583H72.9502ZM60.1298 21.2913C61.3093 21.2913 62.3585 21.0368 63.2775 20.5279C64.1965 20.019 64.9222 19.3216 65.4544 18.4356C65.9867 17.5497 66.2528 16.5413 66.2528 15.4103C66.2528 14.2794 65.9867 13.271 65.4544 12.385C64.9222 11.4991 64.1965 10.8017 63.2775 10.2928C62.3585 9.78385 61.3093 9.52939 60.1298 9.52939C58.9504 9.52939 57.8993 9.78385 56.9764 10.2928C56.0536 10.8017 55.326 11.4991 54.7938 12.385C54.2615 13.271 53.9954 14.2794 53.9954 15.4103C53.9954 16.5413 54.2615 17.5497 54.7938 18.4356C55.326 19.3216 56.0536 20.019 56.9764 20.5279C57.8993 21.0368 58.9504 21.2913 60.1298 21.2913ZM60.1298 18.4639C59.2874 18.4639 58.5905 18.1736 58.0391 17.5931C57.4877 17.0125 57.2119 16.2849 57.2119 15.4103C57.2119 14.5357 57.4877 13.8082 58.0391 13.2276C58.5905 12.647 59.2874 12.3568 60.1298 12.3568C60.9723 12.3568 61.6692 12.647 62.2206 13.2276C62.772 13.8082 63.0477 14.5357 63.0477 15.4103C63.0477 16.2849 62.772 17.0125 62.2206 17.5931C61.6692 18.1736 60.9723 18.4639 60.1298 18.4639ZM83.4156 21.0651V12.583H86.2071V9.75558H83.4156V8.66987C83.4156 7.99883 83.5669 7.5031 83.8694 7.18266C84.1719 6.86223 84.5682 6.70201 85.0584 6.70201C85.2345 6.70201 85.4298 6.7284 85.6442 6.78118C85.8587 6.83395 86.0616 6.93951 86.2531 7.09784L87.5282 4.80201C87.0381 4.48534 86.5345 4.25161 86.0176 4.10082C85.5006 3.95002 84.9894 3.87463 84.484 3.87463C83.7105 3.87463 82.9906 4.04616 82.3243 4.38921C81.658 4.73227 81.1219 5.228 80.716 5.87641C80.3101 6.52483 80.1071 7.30895 80.1071 8.22879V9.75558H78.2116V12.583H80.1071V21.0651H83.4156ZM92.1693 7.22225C91.8323 7.55399 91.3881 7.71987 90.8367 7.71987C90.2853 7.71987 89.8411 7.55399 89.5041 7.22225C89.1672 6.8905 88.9987 6.4532 88.9987 5.91034C88.9987 5.36749 89.1672 4.93018 89.5041 4.59844C89.8411 4.26669 90.2853 4.10082 90.8367 4.10082C91.3881 4.10082 91.8323 4.26669 92.1693 4.59844C92.5063 4.93018 92.6748 5.36749 92.6748 5.91034C92.6748 6.4532 92.5063 6.8905 92.1693 7.22225ZM92.491 9.75558H89.1825V21.0651H92.491V9.75558ZM103.364 20.8502C102.587 21.1443 101.742 21.2913 100.831 21.2913C99.6134 21.2913 98.5278 21.0368 97.5743 20.5279C96.6208 20.019 95.8684 19.3216 95.317 18.4356C94.7656 17.5497 94.4898 16.5413 94.4898 15.4103C94.4898 14.2794 94.7656 13.271 95.317 12.385C95.8684 11.4991 96.6208 10.8017 97.5743 10.2928C98.5278 9.78385 99.6134 9.52939 100.831 9.52939C101.742 9.52939 102.587 9.67641 103.364 9.97046C104.142 10.2645 104.81 10.6754 105.369 11.2032L103.037 13.3633C102.485 12.6923 101.75 12.3568 100.831 12.3568C99.9887 12.3568 99.2917 12.647 98.7403 13.2276C98.1889 13.8082 97.9132 14.5357 97.9132 15.4103C97.9132 16.2849 98.1889 17.0125 98.7403 17.5931C99.2917 18.1736 99.9887 18.4639 100.831 18.4639C101.75 18.4639 102.485 18.1284 103.037 17.4574L105.369 19.6175C104.81 20.1453 104.142 20.5562 103.364 20.8502ZM113.226 21.2913C114.023 21.2913 114.856 21.1631 115.725 20.9068C116.594 20.6504 117.473 20.1792 118.361 19.4931L116.363 17.1407C115.934 17.5403 115.457 17.8664 114.932 18.119C114.408 18.3716 113.747 18.4978 112.951 18.4978C112.208 18.4978 111.559 18.3018 111.004 17.9097C110.448 17.5177 110.067 17.0088 109.861 16.383H118.821V15.399C118.821 14.2605 118.561 13.2502 118.04 12.3681C117.519 11.4859 116.809 10.7923 115.909 10.2871C115.009 9.78197 113.981 9.52939 112.824 9.52939C111.66 9.52939 110.621 9.78385 109.705 10.2928C108.79 10.8017 108.068 11.4954 107.54 12.3737C107.012 13.2521 106.747 14.253 106.747 15.3764C106.747 16.5149 107.023 17.5309 107.574 18.4243C108.126 19.3178 108.888 20.019 109.861 20.5279C110.833 21.0368 111.955 21.2913 113.226 21.2913ZM109.792 14.5734H115.421C115.26 13.9099 114.93 13.3746 114.433 12.9675C113.935 12.5603 113.337 12.3568 112.641 12.3568C111.936 12.3568 111.325 12.5641 110.808 12.9788C110.291 13.3935 109.952 13.925 109.792 14.5734ZM130.102 7.22225C129.765 7.55399 129.321 7.71987 128.769 7.71987C128.218 7.71987 127.774 7.55399 127.437 7.22225C127.1 6.8905 126.931 6.4532 126.931 5.91034C126.931 5.36749 127.1 4.93018 127.437 4.59844C127.774 4.26669 128.218 4.10082 128.769 4.10082C129.321 4.10082 129.765 4.26669 130.102 4.59844C130.439 4.93018 130.607 5.36749 130.607 5.91034C130.607 6.4532 130.439 6.8905 130.102 7.22225ZM140.82 20.8728C140.093 21.1518 139.377 21.2913 138.672 21.2913C137.309 21.2913 136.261 20.9313 135.53 20.2112C134.799 19.4912 134.433 18.4601 134.433 17.1181V12.583H132.537V9.75558H134.433V6.9282H137.741V9.75558H140.533V12.583H137.741V16.7449C137.741 17.2802 137.916 17.7005 138.264 18.0059C138.613 18.3112 139.055 18.4639 139.591 18.4639C139.989 18.4639 140.399 18.3772 140.82 18.2038V20.8728ZM149.022 21.2913C149.819 21.2913 150.652 21.1631 151.521 20.9068C152.39 20.6504 153.269 20.1792 154.157 19.4931L152.159 17.1407C151.73 17.5403 151.253 17.8664 150.728 18.119C150.204 18.3716 149.543 18.4978 148.747 18.4978C148.004 18.4978 147.355 18.3018 146.8 17.9097C146.244 17.5177 145.863 17.0088 145.656 16.383H154.617V15.399C154.617 14.2605 154.357 13.2502 153.836 12.3681C153.315 11.4859 152.605 10.7923 151.705 10.2871C150.805 9.78197 149.777 9.52939 148.62 9.52939C147.456 9.52939 146.417 9.78385 145.501 10.2928C144.586 10.8017 143.864 11.4954 143.336 12.3737C142.808 13.2521 142.543 14.253 142.543 15.3764C142.543 16.5149 142.819 17.5309 143.37 18.4243C143.922 19.3178 144.684 20.019 145.656 20.5279C146.629 21.0368 147.751 21.2913 149.022 21.2913ZM145.588 14.5734H151.217C151.056 13.9099 150.726 13.3746 150.229 12.9675C149.731 12.5603 149.133 12.3568 148.437 12.3568C147.732 12.3568 147.121 12.5641 146.604 12.9788C146.087 13.3935 145.748 13.925 145.588 14.5734ZM127.115 21.0651H130.424V9.75558H127.115V21.0651Z" fill="#25293A"></path>
+  </symbol>
+</svg>

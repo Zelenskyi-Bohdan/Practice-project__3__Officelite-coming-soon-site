@@ -2,12 +2,111 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/public/favicon-32x32.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>practice-project-3-officelite-coming-soon-site</title>
+    <title>Officelite coming soon site</title>
+    <link rel="stylesheet" href="/src/css/style.css" />
   </head>
   <body>
+    <main class="container">
+      <div class="logo-container">
+        <svg width="101" height="18">
+          <use href="./src/img/sprite.svg#logo"></use>
+        </svg>
+      </div>
+
+      <section class="hero">
+        <svg class="hero-icon">
+          <use href="./src/img/sprite.svg#illustration-charts"></use>
+        </svg>
+        <div class="hero-text">
+          <h1>A simple solution to complex tasks is coming soon</h1>
+          <p>
+            Say goodbye to inefficient juggling of multiple apps, teams, and
+            projects. Officelite is the new collaboration platform built with an
+            intuitive interface to improve productivity.
+          </p>
+          <button type="button">Get Started</button>
+        </div>
+      </section>
+
+      <section class="pricing">
+        <ul class="pricing-list">
+          <li class="pricing-card">
+            <div class="pricing-content">
+              <div class="pricing-details">
+                <p class="pricing-plan">Basic</p>
+                <h2 class="pricing-header">Free</h2>
+                <p class="pricing-text">Up to 5 users for free</p>
+              </div>
+              <ul class="pricing-features">
+                <li class="pricing-text">Basic document collaboration</li>
+                <li class="pricing-text">2 GB storage</li>
+                <li class="pricing-text">Great security and support</li>
+              </ul>
+            </div>
+            <button class="card-btn" type="button">Try for Free</button>
+          </li>
+          <li class="pricing-card">
+            <div class="pricing-content">
+              <div class="middle-pricing-details">
+                <p class="middle-pricing-plan">Basic</p>
+                <h2 class="middle-pricing-header">$9.99</h2>
+                <p class="middle-pricing-text">Per user, billed monthly</p>
+              </div>
+
+              <div class="pricing-features">
+                <p class="middle-pricing-text">All essential integrations</p>
+                <p class="middle-pricing-text">50 GB storage</p>
+                <p class="middle-pricing-text">More control and insights</p>
+              </div>
+            </div>
+            <button class="middle-card-btn" type="button"></button>
+          </li>
+          <li class="pricing-card">
+            <div class="pricing-content">
+              <div class="pricing-details">
+                <p class="pricing-plan">Ultimate</p>
+                <h2 class="pricing-header">$19.99</h2>
+                <p class="pricing-text">Per user, billed monthly</p>
+              </div>
+
+              <div class="pricing-features">
+                <p class="pricing-text">Robust work management</p>
+                <p class="pricing-text">100 GB storage</p>
+                <p class="pricing-text">VIP support</p>
+              </div>
+            </div>
+            <button class="card-btn" type="button">Try for Free</button>
+          </li>
+        </ul>
+
+        <section class="countdown">
+          <h2>Coming <span>4 Nov 2020</span></h2>
+          <ul class="countdown-list">
+            <li class="countdown-card">
+              <p class="countdown-number">47</p>
+              <p class="countdown-text">days</p>
+            </li>
+            <li class="countdown-card">
+              <p class="countdown-number">07</p>
+              <p class="countdown-text">hours</p>
+            </li>
+            <li class="countdown-card">
+              <p class="countdown-number">56</p>
+              <p class="countdown-text">min</p>
+            </li>
+            <li class="countdown-card">
+              <p class="countdown-number">14</p>
+              <p class="countdown-text">sec</p>
+            </li>
+          </ul>
+          <button class="countdown-btn">Get Started</button>
+        </section>
+      </section>
+    </main>
+    <main></main>
     <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="/main.js"></script>
   </body>
 </html>
