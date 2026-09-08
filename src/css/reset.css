@@ -1,0 +1,76 @@
+:root {
+  --colors-neutral-0: #fff;
+  --colors-neutral-500: #747b95;
+  --colors-neutral-800: #333950;
+  --colors-neutral-900: #25293a;
+  --colors-blue-300: #829cff;
+  --colors-blue-500: #5175ff;
+  --colors-red-400: #f05b5b;
+  --colors-blue-100: #e4eaff;
+  --colors-neutral-50: #fafafa;
+
+  /* Fonts */
+
+  --font-family: "Kumbh Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: var(--colors-neutral-0);
+  color: var(--colors-neutral-800);
+  margin: 0;
+  padding-block: 40px 112px;
+  min-height: 100vh;
+
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-block: 80px 130px;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    padding-block: 80px 121px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  color: currentColor;
+}
