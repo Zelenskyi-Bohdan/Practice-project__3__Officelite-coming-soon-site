@@ -1,0 +1,220 @@
+.pricing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.pricing-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.pricing-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 48px;
+
+  border-radius: 12px;
+  padding: 40px 24px;
+
+  box-shadow: 0 50px 50px -25px rgba(75, 92, 154, 0.24);
+  background: var(--colors-neutral-0);
+}
+
+.pricing-content {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.pricing-details {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.pricing-plan {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.4;
+  color: var(--colors-neutral-900);
+}
+
+.pricing-header {
+  margin-top: 8px;
+  font-size: 56px;
+  line-height: 1.2;
+  color: var(--colors-neutral-900);
+}
+
+.pricing-text {
+  line-height: 1.6;
+  color: var(--colors-neutral-900);
+}
+
+.pricing-privileges {
+  line-height: 1.6;
+  text-align: center;
+}
+
+.card-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  border: none;
+  border-radius: 999px;
+  padding: 12px 40px;
+  height: 50px;
+
+  background: var(--colors-blue-100);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--colors-blue-500);
+}
+
+.middle-pricing-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 48px;
+
+  border-radius: 12px;
+  padding: 48px 32px;
+
+  box-shadow: 0 50px 50px 0 rgba(75, 92, 154, 0.25);
+  background-color: var(--colors-blue-500);
+}
+
+.middle-pricing-plan {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.4;
+  color: var(--colors-neutral-0);
+}
+
+.middle-pricing-header {
+  font-size: 56px;
+  line-height: 1.2;
+  color: var(--colors-neutral-0);
+}
+
+.middle-pricing-text {
+  line-height: 1.6;
+  color: var(--colors-neutral-0);
+}
+
+.middle-pricing-privileges {
+  line-height: 1.6;
+  text-align: center;
+  color: var(--colors-neutral-0);
+}
+
+.middle-card-btn {
+  display: flex;
+  align-items: center;
+
+  border: none;
+  border-radius: 999px;
+  padding: 12px 40px;
+  height: 50px;
+
+  background: var(--colors-neutral-0);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--colors-blue-500);
+}
+
+/* Countdown */
+
+.countdown {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 48px;
+  width: 343px;
+  height: 254px;
+}
+
+.countdown-timer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  width: 343px;
+  height: 156px;
+}
+
+.countdown-header {
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.31em;
+  text-transform: uppercase;
+  color: var(--colors-neutral-0);
+}
+
+.countdown-span {
+  color: var(--colors-blue-500);
+}
+
+.countdown-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  width: 343px;
+}
+
+.countdown-card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 4px;
+
+  border-radius: 12px;
+  padding: 16px 12px;
+  width: 73px;
+  height: 110px;
+
+  background-color: var(--colors-neutral-800);
+}
+
+.countdown-number {
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--colors-neutral-0);
+}
+
+.countdown-text {
+  font-weight: 700;
+  line-height: 1.6;
+  color: var(--colors-neutral-0);
+  opacity: 0.5;
+}
+
+.countdown-btn {
+  display: flex;
+  align-items: center;
+
+  border: none;
+  border-radius: 999px;
+  padding: 12px 40px;
+
+  background-color: var(--colors-blue-500);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--colors-neutral-0);
+}
