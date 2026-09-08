@@ -16,7 +16,7 @@
   <body>
     <main class="container">
       <div class="logo-container">
-        <svg width="101" height="18">
+        <svg class="logo">
           <use href="./src/img/sprite.svg#logo"></use>
         </svg>
       </div>
@@ -25,14 +25,16 @@
         <svg class="hero-icon">
           <use href="./src/img/sprite.svg#illustration-charts"></use>
         </svg>
-        <div class="hero-text">
-          <h1>A simple solution to complex tasks is coming soon</h1>
-          <p>
+        <div class="hero-text-container">
+          <h1 class="hero-header">
+            A simple solution to complex tasks is coming soon
+          </h1>
+          <p class="hero-text">
             Say goodbye to inefficient juggling of multiple apps, teams, and
             projects. Officelite is the new collaboration platform built with an
             intuitive interface to improve productivity.
           </p>
-          <button type="button">Get Started</button>
+          <button class="hero-btn" type="button">Get Started</button>
         </div>
       </section>
 
@@ -87,7 +89,7 @@
           </li>
         </ul>
 
-        <section class="countdown">
+        <div class="countdown">
           <h2>Coming <span>4 Nov 2020</span></h2>
           <ul class="countdown-list">
             <li class="countdown-card">
@@ -108,7 +110,7 @@
             </li>
           </ul>
           <button class="countdown-btn">Get Started</button>
-        </section>
+        </div>
       </section>
     </main>
     <main></main>
