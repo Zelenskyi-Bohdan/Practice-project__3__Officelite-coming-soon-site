@@ -1,18 +1,19 @@
 .container {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 80px;
   max-width: 375px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 40px 16px 112px;
 }
 
 @media (min-width: 768px) {
   .container {
     gap: 112px;
     max-width: 768px;
-    padding: 0 40px;
+    padding: 80px 40px 130px;
   }
 }
 
@@ -20,6 +21,6 @@
   .container {
     gap: 140px;
     max-width: 1440px;
-    padding: 0 165px;
+    padding: 80px 165px 121px;
   }
 }

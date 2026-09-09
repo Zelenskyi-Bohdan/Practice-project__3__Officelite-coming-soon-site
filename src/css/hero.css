@@ -1,3 +1,10 @@
+body {
+  background-image: url("/src/img/bg-img-header.svg");
+  background-repeat: no-repeat;
+  background-position: center -174px;
+  background-size: contain;
+}
+
 .hero {
   display: flex;
   align-items: center;
@@ -51,6 +58,11 @@
 }
 
 @media (min-width: 768px) {
+  body {
+    background-position: 376px -158px;
+    background-size: 666px 666px;
+  }
+
   .hero {
     display: flex;
     flex-direction: row;
@@ -78,6 +90,11 @@
 }
 
 @media (min-width: 1440px) {
+  body {
+    background-position: 665px -420px;
+    background-size: 1134px 1134px;
+  }
+
   .hero {
     gap: 95px;
   }
