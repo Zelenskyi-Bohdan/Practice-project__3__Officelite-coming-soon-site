@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="signup-container">
+        <a class="logo-container" href="./index.html">
+          <svg class="logo">
+            <use href="./src/img/sprite.svg#logo"></use>
+          </svg>
+        </a>
+
+        <section class="signup-content">
+          <div class="signup-information">
+            <div class="signup-text">
+              <h1>Work smarter. Save time.</h1>
+              <p>
+                Easily manage your projects. Get on the list and receive in-app
+                perks available only to early subscribers. We are moving into
+                final development and getting ready for official launch soon.
+              </p>
+            </div>
+            <div class="signup-timer">
+              <h2 class="signup-timer-header">
+                Coming <span class="signup-timer-span">4 Nov 2020</span>
+              </h2>
+
+              <ul class="signup-timer-list">
+                <li class="signup-timer-card">
+                  <p class="signup-card-number">47</p>
+                  <p class="signup-card-text">days</p>
+                </li>
+                <li class="signup-timer-card">
+                  <p class="signup-card-number">07</p>
+                  <p class="signup-card-text">hours</p>
+                </li>
+                <li class="signup-timer-card">
+                  <p class="signup-card-number">56</p>
+                  <p class="signup-card-text">min</p>
+                </li>
+                <li class="signup-timer-card">
+                  <p class="signup-card-number">14</p>
+                  <p class="signup-card-text">sec</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <form class="signup-form">
+            <legend>
+              <label>
+                <input
+                  class="form-input"
+                  type="text"
+                  name="name"
+                  placeholder="Name"
+                />
+              </label>
+              <label>
+                <input
+                  class="form-input"
+                  type="email"
+                  name="email"
+                  placeholder="Email Address"
+                />
+              </label>
+              <label for="plan"></label>
+              <select class="form-plan" name="plan">
+                <option value="free">Free</option>
+                <option value="9.99">9.99</option>
+                <option value="19.99">19.99</option>
+              </select>
+              <label>
+                <input
+                  class="form-input"
+                  type="number"
+                  name="phone"
+                  placeholder="Phone Number"
+                />
+              </label>
+              <label>
+                <input class="form-input" type="text" placeholder="Company" />
+              </label>
+            </legend>
+
+            <button class="form-btn" type="submit">Get on the list</button>
+          </form>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

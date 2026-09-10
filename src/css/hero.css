@@ -1,4 +1,4 @@
-body {
+.container {
   background-image: url("/src/img/bg-img-header.svg");
   background-repeat: no-repeat;
   background-position: center -174px;
@@ -66,7 +66,7 @@ body {
 }
 
 @media (min-width: 768px) {
-  body {
+  .container {
     background-position: 376px -158px;
     background-size: 666px 666px;
   }
@@ -98,7 +98,7 @@ body {
 }
 
 @media (min-width: 1440px) {
-  body {
+  .container {
     background-position: 665px -420px;
     background-size: 1134px 1134px;
   }
