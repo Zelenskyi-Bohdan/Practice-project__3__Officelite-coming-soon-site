@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./src/css/style.css" />
   </head>
   <body>
@@ -18,8 +24,8 @@
         <section class="signup-content">
           <div class="signup-information">
             <div class="signup-text">
-              <h1>Work smarter. Save time.</h1>
-              <p>
+              <h1 class="signup-header">Work smarter. Save time.</h1>
+              <p class="signup-description">
                 Easily manage your projects. Get on the list and receive in-app
                 perks available only to early subscribers. We are moving into
                 final development and getting ready for official launch soon.
@@ -52,8 +58,8 @@
           </div>
 
           <form class="signup-form">
-            <legend>
-              <label>
+            <legend class="form-fields">
+              <label class="form-label">
                 <input
                   class="form-input"
                   type="text"
@@ -61,7 +67,8 @@
                   placeholder="Name"
                 />
               </label>
-              <label>
+
+              <label class="form-label">
                 <input
                   class="form-input"
                   type="email"
@@ -69,13 +76,21 @@
                   placeholder="Email Address"
                 />
               </label>
-              <label for="plan"></label>
-              <select class="form-plan" name="plan">
-                <option value="free">Free</option>
-                <option value="9.99">9.99</option>
-                <option value="19.99">19.99</option>
-              </select>
-              <label>
+
+              <label class="form-plan-container">
+                <span class="plan-name">Basic Pack</span>
+                <span class="plan-price">Free</span>
+
+                <select class="form-select" name="plan">
+                  <option value="basic">Basic Pack</option>
+                  <option value="pro">Pro Pack</option>
+                  <option value="ultimate">Ultimate Pack</option>
+                </select>
+
+                <span class="select-arrow"></span>
+              </label>
+
+              <label class="form-label">
                 <input
                   class="form-input"
                   type="number"
@@ -83,7 +98,8 @@
                   placeholder="Phone Number"
                 />
               </label>
-              <label>
+
+              <label class="form-label">
                 <input class="form-input" type="text" placeholder="Company" />
               </label>
             </legend>
@@ -93,5 +109,6 @@
         </section>
       </div>
     </main>
+    <div class="signup-footer-decoration"></div>
   </body>
 </html>

@@ -63,4 +63,5 @@ button {
 
 input {
   font-family: inherit;
+  cursor: pointer;
 }
