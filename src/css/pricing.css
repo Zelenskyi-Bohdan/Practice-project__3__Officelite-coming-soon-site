@@ -78,7 +78,7 @@
   padding: 12px 40px;
   height: 50px;
 
-  background: var(--colors-blue-100);
+  background-color: var(--colors-blue-100);
 
   font-weight: 700;
   font-size: 16px;
@@ -88,11 +88,15 @@
   transition: all 0.3s ease;
 }
 
-.card-btn:hover,
-.card-btn:focus {
+.card-btn:hover {
   background-color: #dce5ff;
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(76, 111, 255, 0.25);
+}
+
+.card-btn:focus {
+  outline: 2px solid var(--colors-outline-hover);
+  outline-offset: 3px;
 }
 
 .middle-pricing-card {
@@ -152,10 +156,14 @@
   transition: all 0.3s ease;
 }
 
-.middle-card-btn:hover,
-.middle-card-btn:focus {
+.middle-card-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.middle-card-btn:focus {
+  outline: 2px solid var(--colors-outline-hover);
+  outline-offset: 3px;
 }
 
 /* Countdown */
@@ -242,11 +250,15 @@
   transition: all 0.3s ease;
 }
 
-.countdown-btn:hover,
-.countdown-btn:focus {
+.countdown-btn:hover {
   background-color: #3b5edb; /* насиченіший синій */
   transform: translateY(-2px); /* зсув вгору */
   box-shadow: 0 8px 20px rgba(79, 117, 255, 0.4); /* м'яка тінь у тон */
+}
+
+.countdown-btn:focus {
+  outline: 2px solid var(--colors-blue-500);
+  outline-offset: 3px;
 }
 
 .footer-decoration {

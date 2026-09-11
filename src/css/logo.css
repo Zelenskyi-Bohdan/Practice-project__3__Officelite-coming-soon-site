@@ -8,6 +8,12 @@
   height: 30px;
 }
 
+.logo-container:focus {
+  border-radius: 999px;
+  outline: 2px solid var(--colors-blue-500);
+  outline-offset: 3px;
+}
+
 @media (min-width: 768px) {
   .logo-container {
     justify-content: flex-start;

@@ -59,11 +59,15 @@
   transition: all 0.3s ease;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+.hero-btn:hover {
   background-color: #3b62ff;
   transform: translateY(-3px);
   box-shadow: 0 15px 25px rgba(79, 117, 255, 0.4);
+}
+
+.hero-btn:focus {
+  outline: 2px solid var(--colors-blue-500);
+  outline-offset: 3px;
 }
 
 @media (min-width: 768px) {
