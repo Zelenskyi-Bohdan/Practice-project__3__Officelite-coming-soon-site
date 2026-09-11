@@ -6,9 +6,10 @@ startTimer();
 
 // Validation
 
-document.addEventListener('DOMContentLoaded', () => {
-  const form = document.querySelector('.signup-form');
-  if (!form) return;
+const form = document.querySelector('.signup-form');
+  
+
+if (form) {
 
   const fields = form.querySelectorAll('.form-field');
 
@@ -61,4 +62,4 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
   });
-});
+}

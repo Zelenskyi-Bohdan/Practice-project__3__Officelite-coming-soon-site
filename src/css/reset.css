@@ -20,7 +20,7 @@
 }
 
 body {
-  font-family: "Kumbh Sans", sans-serif;
+  font-family: var(--font-family);
   background-color: var(--colors-neutral-0);
   color: var(--colors-neutral-800);
   position: relative;
@@ -64,5 +64,4 @@ button {
 
 input {
   font-family: inherit;
-  cursor: pointer;
 }

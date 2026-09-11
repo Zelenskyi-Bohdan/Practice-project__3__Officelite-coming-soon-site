@@ -10,8 +10,8 @@ console.log(hoursEl);
 console.log(minutesEl);
 console.log(secondsEl);
 
-const twoDays = 1.8 * 24 * 60 * 60 * 1000;
-const targetTime = Date.now() + twoDays;
+const twoDays = 2 * 24 * 60 * 60 * 1000;
+const targetTime = new Date('2026-12-31T23:59:59').getTime();
 
 let timer;
 
