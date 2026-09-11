@@ -58,24 +58,32 @@
           </div>
 
           <form class="signup-form">
-            <legend class="form-fields">
-              <label class="form-label">
-                <input
-                  class="form-input"
-                  type="text"
-                  name="name"
-                  placeholder="Name"
-                />
-              </label>
+            <div class="form-fields">
+              <div class="form-field">
+                <label class="form-label">
+                  <input
+                    class="form-input"
+                    type="text"
+                    name="name"
+                    placeholder="Name"
+                  />
+                  <span class="error-icon" aria-hidden="true">✕</span>
+                </label>
+                <span class="error-message">Enter your name</span>
+              </div>
 
-              <label class="form-label">
-                <input
-                  class="form-input"
-                  type="email"
-                  name="email"
-                  placeholder="Email Address"
-                />
-              </label>
+              <div class="form-field">
+                <label class="form-label">
+                  <input
+                    class="form-input"
+                    type="email"
+                    name="email"
+                    placeholder="Email Address"
+                  />
+                  <span class="error-icon" aria-hidden="true">✕</span>
+                </label>
+                <span class="error-message">Enter your email address</span>
+              </div>
 
               <label class="form-plan-container">
                 <span class="plan-name">Basic Pack</span>
@@ -90,19 +98,32 @@
                 <span class="select-arrow"></span>
               </label>
 
-              <label class="form-label">
-                <input
-                  class="form-input"
-                  type="tel"
-                  name="phone"
-                  placeholder="Phone Number"
-                />
-              </label>
+              <div class="form-field">
+                <label class="form-label">
+                  <input
+                    class="form-input"
+                    type="tel"
+                    name="phone"
+                    placeholder="Phone Number"
+                  />
+                  <span class="error-icon" aria-hidden="true">✕</span>
+                </label>
+                <span class="error-message">Enter your phone number</span>
+              </div>
 
-              <label class="form-label">
-                <input class="form-input" type="text" placeholder="Company" />
-              </label>
-            </legend>
+              <div class="form-field">
+                <label class="form-label">
+                  <input
+                    class="form-input"
+                    type="text"
+                    name="company"
+                    placeholder="Company"
+                  />
+                  <span class="error-icon" aria-hidden="true">✕</span>
+                </label>
+                <span class="error-message">Enter your company name</span>
+              </div>
+            </div>
 
             <button class="form-btn" type="submit">Get on the list</button>
           </form>

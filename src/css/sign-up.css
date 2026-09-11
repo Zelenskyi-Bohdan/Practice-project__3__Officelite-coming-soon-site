@@ -108,6 +108,8 @@
 
 .form-label {
   position: relative;
+  display: flex;
+  justify-content: center;
   display: block;
   width: 100%;
   height: 45px;
@@ -125,6 +127,7 @@
 }
 
 .form-input {
+  position: relative;
   display: flex;
   flex-direction: column;
 
@@ -145,6 +148,45 @@
 .form-plan-container:focus-within {
   outline: 2px solid var(--colors-blue-500);
   outline-offset: 3px;
+}
+
+/* Validation */
+
+.error-icon {
+  display: none;
+  position: absolute;
+  top: 12px;
+  right: 8px;
+  width: 20px;
+  height: 20px;
+  background-color: #f00;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 20px;
+  pointer-events: none;
+}
+
+.error-message {
+  display: none;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #f00;
+  margin-top: 6px;
+}
+
+.form-field.error .form-label::after {
+  background-color: #f00;
+}
+.form-field.error .form-input:focus {
+  outline-color: #f00;
+}
+
+.form-field.error .error-icon,
+.form-field.error .error-message {
+  display: block; /* Показуємо іконку та текст */
 }
 
 .form-plan-container {
