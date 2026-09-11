@@ -16,8 +16,12 @@
   <body>
     <main>
       <div class="signup-container">
-        <a class="logo-container" href="./index.html">
-          <svg class="logo">
+        <a
+          class="logo-container"
+          href="./index.html"
+          aria-label="Officelite home"
+        >
+          <svg class="logo" aria-hidden="true">
             <use href="./src/img/sprite.svg#logo"></use>
           </svg>
         </a>
@@ -67,10 +71,14 @@
                     type="text"
                     name="name"
                     placeholder="Name"
+                    aria-describedby="name-error"
+                    autocomplete="name"
                   />
-                  <span class="error-icon" aria-hidden="true">✕</span>
+                  <span class="error-icon" aria-hidden="true"></span>
                 </label>
-                <span class="error-message">Enter your name</span>
+                <span class="error-message" id="name-error"
+                  >Enter your name</span
+                >
               </div>
 
               <div class="form-field">
@@ -80,23 +88,31 @@
                     type="email"
                     name="email"
                     placeholder="Email Address"
+                    aria-describedby="email-error"
+                    autocomplete="email"
                   />
-                  <span class="error-icon" aria-hidden="true">✕</span>
+                  <span class="error-icon" aria-hidden="true"></span>
                 </label>
-                <span class="error-message">Enter your email address</span>
+                <span class="error-message" id="email-error"
+                  >Enter your email address</span
+                >
               </div>
 
               <label class="form-plan-container">
                 <span class="plan-name">Basic Pack</span>
                 <span class="plan-price">Free</span>
 
-                <select class="form-select" name="plan">
+                <select
+                  class="form-select"
+                  name="plan"
+                  aria-label="Select a plan"
+                >
                   <option value="basic">Basic Pack</option>
                   <option value="pro">Pro Pack</option>
                   <option value="ultimate">Ultimate Pack</option>
                 </select>
 
-                <span class="select-arrow"></span>
+                <span class="select-arrow" aria-hidden="true"></span>
               </label>
 
               <div class="form-field">
@@ -106,10 +122,14 @@
                     type="tel"
                     name="phone"
                     placeholder="Phone Number"
+                    aria-describedby="phone-error"
+                    autocomplete="tel"
                   />
-                  <span class="error-icon" aria-hidden="true">✕</span>
+                  <span class="error-icon" aria-hidden="true"></span>
                 </label>
-                <span class="error-message">Enter your phone number</span>
+                <span class="error-message" id="phone-error"
+                  >Enter your phone number</span
+                >
               </div>
 
               <div class="form-field">
@@ -119,10 +139,14 @@
                     type="text"
                     name="company"
                     placeholder="Company"
+                    aria-describedby="company-error"
+                    autocomplete="organization"
                   />
-                  <span class="error-icon" aria-hidden="true">✕</span>
+                  <span class="error-icon" aria-hidden="true"></span>
                 </label>
-                <span class="error-message">Enter your company name</span>
+                <span class="error-message" id="company-error"
+                  >Enter your company name</span
+                >
               </div>
             </div>
 

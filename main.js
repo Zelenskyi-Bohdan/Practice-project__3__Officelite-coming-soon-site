@@ -30,12 +30,24 @@ if (form) {
 
     if (!isValid) {
       field.classList.add('error');
+      input.setAttribute('aria-invalid', 'true');
     } else {
       field.classList.remove('error');
+      input.setAttribute('aria-invalid', 'false');
     }
 
     return isValid;
   };
+
+  fields.forEach((field) => {
+  const input = field.querySelector('.form-input');
+
+  if (input) {
+    input.addEventListener('input', () => {
+      validateField(field);
+    });
+  }
+});
 
   form.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -51,15 +63,6 @@ if (form) {
     if (isFormValid) {
       const formData = new FormData(form);
       console.log('Дані форми:', Object.fromEntries(formData));
-    }
-  });
-
-  fields.forEach((field) => {
-    const input = field.querySelector('.form-input');
-    if (input) {
-      input.addEventListener('input', () => {
-        field.classList.remove('error');
-      });
     }
   });
 }
