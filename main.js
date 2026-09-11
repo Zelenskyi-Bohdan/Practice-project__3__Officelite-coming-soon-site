@@ -62,7 +62,6 @@ if (form) {
 
     if (isFormValid) {
       const formData = new FormData(form);
-      console.log('Дані форми:', Object.fromEntries(formData));
     }
   });
 }

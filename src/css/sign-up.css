@@ -180,7 +180,7 @@
 
 .form-field.error .error-icon,
 .form-field.error .error-message {
-  display: block; /* Показуємо іконку та текст */
+  display: block;
 }
 
 .form-plan-container {
