@@ -10,7 +10,7 @@ console.log(hoursEl);
 console.log(minutesEl);
 console.log(secondsEl);
 
-const twoDays = 2 * 24 * 60 * 60 * 1000;
+const twoDays = 1.8 * 24 * 60 * 60 * 1000;
 const targetTime = Date.now() + twoDays;
 
 let timer;
