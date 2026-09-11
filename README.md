@@ -28,16 +28,16 @@ The project includes a landing page with pricing plans and a countdown timer, as
 
 # Project Structure
 
-├── index.html
-├── sign-up.html
-├── main.js
-├── src/
-│ ├── css/
-│ │ └── style.css
-│ ├── img/
-│ └── js/
-│ └── timer.js
-└── public/
+- ├── index.html
+- ├── sign-up.html
+- ├── main.js
+- ├── src/
+- │ ├── css/
+- │ │ └── style.css
+- │ ├── img/
+- │ └── js/
+- │ └── timer.js
+- └── public/
 
 # Getting Started
 
